@@ -30,4 +30,5 @@ jobs:
     - name: installing surge
       run:  npm install -g surge
     - name: surge deployment
-      run:  surge ./ firstt_project.surge.sh --token $ {{secrets.TOKEN}}
+      run:  surge ./ firstt_project.surge.sh --token ${{secrets.TOKEN}}
+      
